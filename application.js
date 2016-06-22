@@ -23,7 +23,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(mbaasExpress.fhmiddleware());
 
 app.use('/hello', require('./lib/hello.js')());
-app.use('/fuse', require('./lib/fuse.js')());
+app.use('/fuseList', require('./lib/fuseList.js')());
+app.use('/fuseUpdate', require('./lib/fuseUpdate.js')());
 
 // Important that this is last!
 app.use(mbaasExpress.errorHandler());
