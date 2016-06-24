@@ -8,7 +8,7 @@ This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for bu
 
 'Fuse List' endpoint.
 
-## fuseList [Post] 
+## fuseList [GET] 
 
 'Fuse List' endpoint.
 
