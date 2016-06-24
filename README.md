@@ -4,22 +4,21 @@ This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for bu
 
 # Group Hello World API
 
-# hello [/hello]
+# fuseList [/fuseList]
 
-'Hello world' endpoint.
+'Fuse List' endpoint.
 
-## hello [POST] 
+## fuseList [GET] 
 
-'Hello world' endpoint.
+'Fuse List' endpoint.
 
 + Request (application/json)
     + Body
             {
-              "hello": "world"
             }
 
 + Response 200 (application/json)
     + Body
             {
-              "msg": "Hello world"
+              "msg": "Some Opportunity data"
             }
